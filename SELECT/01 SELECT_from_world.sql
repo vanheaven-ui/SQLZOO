@@ -1,3 +1,6 @@
+--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--                                                  TUTORIAL solutions
+--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- Soln 1
 -- show the name, continent and population of all countries.
 -- QUERY 👇:
@@ -64,42 +67,49 @@ SELECT name, capital FROM world WHERE LEFT(name, 1) = LEFT(capital, 1) AND name 
 -- QUERY 👇:
 SELECT name FROM world WHERE name NOT LIKE '% %' AND name LIKE '%a%' AND name LIKE '%e%' AND name LIKE '%i%' AND name LIKE '%o%' AND name LIKE '%u%';
 
--- QUIZ 
+--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--                                                  QUIZ solutions
+--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 -- Soln 1
- Select the code which produces this table
-name	population
-Bahrain	1234571
-Swaziland	1220000
-Timor-Leste	1066409
+-- Select the code which gives the name of countries beginning with U
 -- SELECTION 👇:
 SELECT name FROM world WHERE name LIKE 'U%';
 
 -- Soln 2
+-- Select the code which shows just the population of United Kingdom?
 -- SELECTION 👇:
 SELECT population
   FROM world
  WHERE name = 'United Kingdom';
  
 -- Soln 3
+-- Select the answer which shows the problem with this SQL code - the intended result should be the continent of France:
 -- SELECTION 👇:
 -- 'name' should be name
 
 -- Soln 4
+-- Select the result that would be obtained from the following code:
 -- RESULT 👇:
 -- Nauru	990
 
 -- Soln 5
+-- Select the code which would reveal the name and population of countries in Europe and Asia
 -- SELECTION 👇:
 SELECT name, population
   FROM world
  WHERE continent IN ('Europe', 'Asia');
  
 -- Soln 6
+-- Select the code which would give two rows
 -- SELECTION 👇:
 SELECT name FROM world
  WHERE name IN ('Cuba', 'Togo');
  
 -- Soln 7
+-- Select the result that would be obtained from this code:
+SELECT name FROM world
+ WHERE continent = 'South America'
+   AND population > 40000000;
 -- RESULT 👇:
 -- Brazil
 -- Colombia
