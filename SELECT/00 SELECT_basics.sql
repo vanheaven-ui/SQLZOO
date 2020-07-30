@@ -22,6 +22,7 @@ SELECT name, area FROM world WHERE area BETWEEN 200000 AND 250000;
 -- Bahrain	1234571
 -- Swaziland	1220000
 -- Timor-Leste	1066409
+-- SELECTION 👇:
 SELECT name, population FROM world WHERE population BETWEEN 1000000 AND 1250000;
 
 -- Soln2
