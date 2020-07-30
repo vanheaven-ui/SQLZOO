@@ -51,3 +51,11 @@ SELECT matchid, mdate, COUNT(gtime) FROM game JOIN goal ON game.id = goal.matchi
 
 -- Soln 13
 -- List every match with the goals scored by each team as shown
+SELECT mdate, 
+  team1, 
+  SUM(CASE WHEN teamid=team1 THEN 1 ELSE 0 END) score1, 
+  team2, 
+  SUM(CASE WHEN teamid=team2 THEN 1 ELSE 0 END) score2 
+    FROM game JOIN goal ON matchid = id 
+      GROUP BY mdate, team1, team2, teamid 
+        ORDER BY  mdate, matchid, team1, team2;
