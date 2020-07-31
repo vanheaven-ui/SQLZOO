@@ -22,7 +22,7 @@ This Repository includes solutions to SQLZoo quizzes
 
 
 ## About <a name = "about"></a>
-The SQL queries written inthe repository were run for MYSQL database syntax in the SQLZoo online resource. The SQLZoo online resource found [**HERE**](https://sqlzoo.net/wiki/SELECT_basics) includes tables against which the written SQL queries were run. The SQLZoo resource also provides and editor to type the queries together with an output console to print the result of the queries written.
+The SQL queries written in this repository followed the MYSQL database syntax and were run in the SQLZoo online resource. The SQLZoo online resource found [**HERE**](https://sqlzoo.net/wiki/SELECT_basics) includes tables against which the written SQL queries were run. The SQLZoo resource also provides an editor to type the queries and an output console that prints the result of the queries submitted.
 
 ## 🔧 Built with<a name = "with"></a>
 
@@ -35,7 +35,7 @@ To use the code in this repository, follow the steps in this section
 ### 🔨 Steps
 - Clone or download the repository to a local directory on your computer by following the Github instructions.
 - Then Open your browser and load this [LINK](https://sqlzoo.net/wiki/SELECT_basics).
-- Copy the code from your editor into the SQLZoo editor matching the active question.
+- Copy the code from your editor into the SQLZoo editor taking caution tp match the active question.
 - Click the ``SUBMIT SQL`` button for output.
 
 ## ✒️  Authors <a name = "author"></a>
