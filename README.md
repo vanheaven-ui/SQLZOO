@@ -35,6 +35,7 @@ To use the code in this repository, follow the steps in this section
 ### 🔨 Steps
 - Clone or download the repository to a local directory on your computer by following the Github instructions.
 - Then Open your browser and load this [LINK](https://sqlzoo.net/wiki/SELECT_basics).
+- Use the left navigation sidebar to choose the topical questions with their quizzes.
 - Copy the code from your editor into the SQLZoo editor taking caution to match the question with the respective query copied.
 - Click the ``SUBMIT SQL`` button for output.
 
