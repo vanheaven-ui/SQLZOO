@@ -11,7 +11,7 @@ This Repository includes solutions to SQLZoo quizzes
 
 ## Screenshot of SQLZoo online environment
 
-<img src="/img/screenshot.jpg">
+<img src="/img/screenshot.png">
 
 ## Content
 
